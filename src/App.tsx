@@ -23,7 +23,7 @@ function App() {
       </section>
       <h2 className="text-9xl font-bold -mx-2">DEVELOPER</h2>
 
-      <p className="w-[450px] ml-auto text-justify mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magni nostrum adipisci ex facere ipsa corrupti odit ipsum.</p>
+      <p className="w-[450px] ml-auto text-justify text-lg font-semibold mt-2">e tenho a idade de 21 anos de idade. Sou um apaixonado desenvolvedor frontend, num constante aprendizado em JavaScript e TypeScript.</p>
       {/* <div className="fixed top-0 left-0 w-screen h-screen bg-overlay"></div> */}
     </>
   )
