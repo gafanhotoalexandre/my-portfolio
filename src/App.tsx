@@ -1,6 +1,4 @@
-import { FileText, GithubLogo, LinkedinLogo } from '@phosphor-icons/react'
-
-import curriculo from './assets/curriculo.pdf'
+import { SocialLinks } from './components/SocialLinks'
 
 function App() {
   return (
@@ -9,17 +7,7 @@ function App() {
       <section className="flex justify-between items-center">
         <h1 className="text-7xl font-bold">FRONTEND</h1>
 
-        <div className="flex gap-8">
-          <a className="hover:bg-sky-200 transition-all p-3 rounded-full" href="https://github.com/gafanhotoalexandre">
-            <GithubLogo size={32} />
-          </a>
-          <a className="hover:bg-sky-200 transition-all p-3 rounded-full" href="https://www.linkedin.com/in/alemartins-lima/">
-            <LinkedinLogo size={32} />
-          </a>
-          <a className="hover:bg-sky-200 transition-all p-3 rounded-full" download href={curriculo}>
-            <FileText size={32} />
-          </a>
-        </div>
+        <SocialLinks />
       </section>
       <h2 className="text-9xl font-bold -mx-2">DEVELOPER</h2>
 
