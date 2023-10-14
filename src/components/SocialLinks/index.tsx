@@ -3,7 +3,7 @@ import { SocialLink } from "../SocialLink";
 
 export function SocialLinks() {
   return (
-    <section className="flex gap-8">
+    <section className="flex md:gap-8">
       {socialLinksData.map((link, index) => (
         <SocialLink
           key={index}
