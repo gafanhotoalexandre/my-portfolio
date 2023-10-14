@@ -14,7 +14,7 @@ function App() {
         <h2 className="text-6xl md:text-9xl md:tracking-wide font-bold">DEVELOPER</h2>
       </article>
 
-      <p className="md:max-w-[450px] md:ml-auto md:tracking-tighter md:text-lg text-base font-semibold text-justify tracking-tight">and I'm 21 years old. I'm a passionate frontend developer, continually learning in JavaScript and TypeScript.</p>
+      <p className="md:max-w-[450px] md:ml-auto md:text-lg text-base font-semibold text-justify tracking-tight">and I'm 21 years old. I'm a passionate frontend developer, continually learning in JavaScript and TypeScript.</p>
     </div>
 
   )
