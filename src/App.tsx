@@ -3,7 +3,7 @@ import { SocialLinks } from './components/SocialLinks'
 function App() {
   return (
     <div className="">
-      <h2 className="font-bold text-base">Hello! I am Alexandre Martins</h2>
+      <h2 className="font-bold text-base md:text-lg">Hello! I am Alexandre Martins</h2>
 
       <article className="my-3">
         <section className="flex justify-between items-center">
