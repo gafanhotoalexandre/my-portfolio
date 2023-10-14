@@ -4,8 +4,8 @@
 
 @layer base {
   body {
-    background: radial-gradient(circle, #89cfe4, #3498db);
-    @apply min-h-screen flex justify-center items-center text-[#f5f5f5]
+    background: radial-gradient(circle, #89cfe4, #3498db) no-repeat;
+    @apply min-h-screen flex justify-center items-center text-[#f5f5f5] px-6
   }
 
   .bg-overlay {

@@ -2,18 +2,21 @@ import { SocialLinks } from './components/SocialLinks'
 
 function App() {
   return (
-    <div className="mx-14 md:mx-0">
-      <h2 className="mx-1 text-xl font-semibold">Oi! Eu sou Alexandre Martins</h2>
-      <section className="flex justify-between items-center">
-        <h1 className="text-4xl md:text-7xl font-bold">FRONTEND</h1>
+    <div className="">
+      <h2 className="font-bold text-base">Hello! I am Alexandre Martins</h2>
 
-        <SocialLinks />
-      </section>
-      <h2 className="text-6xl md:text-9xl font-bold -mx-2">DEVELOPER</h2>
+      <article className="my-3">
+        <section className="flex justify-between items-center">
+          <h1 className="text-4xl md:tracking-wide md:text-7xl font-bold">FRONTEND</h1>
 
-      <p className="md:w-[450px] md:ml-auto text-justify md:text-lg font-semibold mt-2">e tenho a idade de 21 anos de idade. Sou um apaixonado desenvolvedor frontend, num constante aprendizado em JavaScript e TypeScript.</p>
-      {/* <div className="fixed top-0 left-0 w-screen h-screen bg-overlay"></div> */}
+          <SocialLinks />
+        </section>
+        <h2 className="text-6xl md:text-9xl md:tracking-wide font-bold">DEVELOPER</h2>
+      </article>
+
+      <p className="md:max-w-[450px] md:ml-auto md:tracking-tighter md:text-lg text-base font-semibold text-justify tracking-tight">and I'm 21 years old. I'm a passionate frontend developer, continually learning in JavaScript and TypeScript.</p>
     </div>
+
   )
 }
 
